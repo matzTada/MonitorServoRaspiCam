@@ -16,7 +16,7 @@ Raspberry Pi Cameraの設定方法，遠隔でCameraからの画像を見る方�
 遠隔で見れるかと思って期待した方にはごめんなさい．．．  
 下に私が参考にしたサイトとコマンドを示しておきます．  
 
-## Prepartion of raspberry pi camera
+## Preparation of raspberry pi camera
 I refered following sites.
 
 * <http://blog.studiok-i.net/raspberry-pi/891.html> (Japanese)   
