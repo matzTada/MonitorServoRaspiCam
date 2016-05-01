@@ -1,21 +1,41 @@
+#MonitorServoRaspiCam
 Controlling Camera angle by servo motors
 (do not include Raspberry Pi camera configuration)
-View: https://www.youtube.com/watch?v=zNGVQXqtgJ4
-Motion: https://www.youtube.com/watch?v=AG3V2XWtpm4
 
-Raspberry Pi‚©‚çƒT[ƒ{‚ğƒRƒ“ƒgƒ[ƒ‹‚·‚éƒvƒƒOƒ‰ƒ€‚½‚¿‚Å‚·
-Raspberry Pi Camera‚Ìİ’è•û–@C‰“Šu‚ÅCamera‚©‚ç‚Ì‰æ‘œ‚ğŒ©‚é•û–@‚É‚Â‚¢‚Ä‚Í‚Ù‚©‚Ì•û‚ÌƒTƒCƒg‚ğQl‚É‚µ‚Ä‚­‚¾‚³‚¢D
-‰“Šu‚ÅŒ©‚ê‚é‚©‚Æv‚Á‚ÄŠú‘Ò‚µ‚½•û‚É‚Í‚²‚ß‚ñ‚È‚³‚¢DDD
-‰º‚É„‚ªQl‚É‚µ‚½ƒTƒCƒg‚ÆƒRƒ}ƒ“ƒh‚ğ¦‚µ‚Ä‚¨‚«‚Ü‚·D
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=3JpP7gTOWbY
+" target="_blank"><img src="http://img.youtube.com/vi/3JpP7gTOWbY/0.jpg" 
+alt="movie on youtube" width=40% border="10" /></a>
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=AG3V2XWtpm4
+" target="_blank"><img src="http://img.youtube.com/vi/AG3V2XWtpm4/0.jpg" 
+alt="movie on youtube" width=40% border="10" /></a>  
+[movie "View" on youtube](https://www.youtube.com/watch?v=3JpP7gTOWbY)  
+[movie "Motion" on youtube](https://www.youtube.com/watch?v=AG3V2XWtpm4)
 
--- prepartion of raspberry pi camera --
-I refered this site. 
-http://blog.studiok-i.net/raspberry-pi/891.html
-http://www.pyimagesearch.com/
+Raspberry Piã‹ã‚‰ã‚µãƒ¼ãƒœã‚’ã‚³ãƒ³ãƒˆãƒ­ãƒ¼ãƒ«ã™ã‚‹ãƒ—ãƒ­ã‚°ãƒ©ãƒ ãŸã¡ã§ã™ã€€ã€€
+Raspberry Pi Cameraã®è¨­å®šæ–¹æ³•ï¼Œé éš”ã§Cameraã‹ã‚‰ã®ç”»åƒã‚’è¦‹ã‚‹æ–¹æ³•ã«ã¤ã„ã¦ã¯ã»ã‹ã®æ–¹ã®ã‚µã‚¤ãƒˆã‚’å‚è€ƒã«ã—ã¦ãã ã•ã„ï¼  
+é éš”ã§è¦‹ã‚Œã‚‹ã‹ã¨æ€ã£ã¦æœŸå¾…ã—ãŸæ–¹ã«ã¯ã”ã‚ã‚“ãªã•ã„ï¼ï¼ï¼  
+ä¸‹ã«ç§ãŒå‚è€ƒã«ã—ãŸã‚µã‚¤ãƒˆã¨ã‚³ãƒãƒ³ãƒ‰ã‚’ç¤ºã—ã¦ãŠãã¾ã™ï¼  
 
--- Remote View of Raspberry Pi Camera --
+## Prepartion of raspberry pi camera
+I refered following sites.
+
+* <http://blog.studiok-i.net/raspberry-pi/891.html> (Japanese)   
+* <http://www.pyimagesearch.com/> (English. I recommend strongly.)  
+
+## Remote View of Raspberry Pi Camera
+
 1. start VNC server on Raspberry Pi (in the videos, tightvncserver is used)
-2. login VNC server from your computer (for windows, real vncviewer is used)
-3. type "xhost +localhost" to run (Important)
-4. cd ~/facedetect/
-5. ./facedetect --scale=5
+2. login VNC server from your computer (in the videos (for windows), real vncviewer is used)
+3. type `xhost +localhost` to show view from camera on VNC display __(Important)__
+4. `./facedetect/facedetect --scale=5` (start view from camera. please follow referential site.)
+
+## Images
+
+![alt text](https://github.com/matzTada/
+MonitorServoRaspiCam/tree/master/image/pic01.jpg "image")
+
+![alt text](https://github.com/matzTada/
+MonitorServoRaspiCam/tree/master/image/pic02.jpg "image")
+
+![alt text](https://github.com/matzTada/
+MonitorServoRaspiCam/tree/master/image/pic03.jpg "image")
