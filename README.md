@@ -11,7 +11,7 @@ alt="movie on youtube" width=40% border="10" /></a>
 [movie "View" on youtube](https://www.youtube.com/watch?v=3JpP7gTOWbY)  
 [movie "Motion" on youtube](https://www.youtube.com/watch?v=AG3V2XWtpm4)
 
-Raspberry Piからサーボをコントロールするプログラムたちです　　
+Raspberry Piからサーボをコントロールするプログラムたちです  
 Raspberry Pi Cameraの設定方法，遠隔でCameraからの画像を見る方法についてはほかの方のサイトを参考にしてください．  
 遠隔で見れるかと思って期待した方にはごめんなさい．．．  
 下に私が参考にしたサイトとコマンドを示しておきます．  
@@ -37,7 +37,3 @@ alt="pic01" width=20%></a>
 alt="pic02" width=20%></a>
 <a><img src="https://github.com/matzTada/MonitorServoRaspiCam/blob/master/image/pic03.jpg" 
 alt="pic03" width=20%></a>
-
-![pic01](https://github.com/matzTada/MonitorServoRaspiCam/blob/master/image/pic01.jpg "image")
-![pic02](https://github.com/matzTada/MonitorServoRaspiCam/blob/master/image/pic02.jpg "image")
-![pic03](https://github.com/matzTada/MonitorServoRaspiCam/blob/master/image/pic03.jpg "image")
